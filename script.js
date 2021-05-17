@@ -21,7 +21,7 @@ function guess2 () {
 
   if (answer2 === 'coal') {
     answer2 = document.getElementById('result2').innerHTML =
-    'Congrats, you have solved the first riddle!'
+    'Congrats, you have solved the second riddle!'
   } else if (answer2 !== 'coal') {
     answer1 = document.getElementById('result2').innerHTML =
     'Sorry, that is incorrect, please try again'
