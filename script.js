@@ -10,7 +10,7 @@ document.getElementById('button').addEventListener('click', guess2)
 function guess1 () {
   answer1 = document.getElementById('type1').value
 
-//  if typed answer is e put right, if not put wrong
+  //  if typed answer is e put right, if not put wrong
   if (answer1 === 'e') {
     answer1 = document.getElementById('result1').innerHTML =
     'Congrats, you have solved the first riddle!'
@@ -24,7 +24,7 @@ function guess1 () {
 function guess2 () {
   answer2 = document.getElementById('type2').value
 
-//  if typed answer is coal put right, if not put wrong
+  //  if typed answer is coal put right, if not put wrong
   if (answer2 === 'coal') {
     answer2 = document.getElementById('result2').innerHTML =
     'Congrats, you have solved the second riddle!'
